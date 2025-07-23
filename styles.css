@@ -143,6 +143,7 @@ padding: 56px 0;
 }
 
 
+
 .row {
 width: 100%;
 max-width: 1200px;
@@ -173,6 +174,7 @@ width: 101vw;
    
     transform: translateY(-100%);
 }
+
 
 #highlights:after{
     background: url('assets/wave.svg');
@@ -224,6 +226,7 @@ width: 101vw;
 
 .books {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .book {
@@ -267,3 +270,4 @@ width: 101vw;
     padding-right: 6px;
     color: #bfbfbf;
 }
+
