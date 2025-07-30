@@ -110,6 +110,7 @@ li {
 .menu--open .menu__backdrop {
    visibility: visible;
    opacity: 1;
+   transform: translate(0);
 }
 
 .menu--open {
@@ -139,18 +140,18 @@ li {
     top: 10px;
     padding: 8px;
     color: white;
+}
 
     /*Landing*/
 
 
-}
-#landing,
-#explore {
+
+#landing {
     background-color: rgba(115, 66, 214, 0.1);
 }
 
 header {
-    min-height: calc(100vh - 80px);
+    height: calc(100vh - 80px);
 }
 
 .header__container {
@@ -161,7 +162,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding-top: 24px;
+
 }
 
 
@@ -197,7 +198,7 @@ h2{
 
 .header__img--wrapper {
     padding: 20 px;
-   z-index: 2;
+   z-index: 50;
 }
 
 button {
@@ -249,7 +250,7 @@ content: "";
 width: 101vw;
     height:12vw ;
     left: 0;
-    z-index: 1;
+    z-index:1;
  
 }
 
@@ -265,12 +266,12 @@ width: 101vw;
 
 #highlights:after{
     background: url('assets/wave.svg');
-    
-    transform: translateY(100%); rotate: (180deg);
+    bottom: 1px;
+    transform: translateY(100%) rotate(180deg);
     background-size: cover;
     background-repeat: no-repeat;
-
 }
+
 
 .highlight__wrapper {
     display: flex;
