@@ -238,7 +238,7 @@ margin: 0 auto;
 
 /*HIGHLIGHTS*/
 #highlights{
-    position: reative;
+    position: relative;
     max-width: 100vw;
 }
 
@@ -250,15 +250,16 @@ width: 101vw;
     height:12vw ;
     left: 0;
     z-index: 1;
-    background-size: cover;
-    background-repeat: no-repeat;
-
+ 
 }
 
 #highlights:before {
   background: url('assets/wave.svg');
    
     transform: translateY(-100%);
+    top: 1 px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
@@ -266,6 +267,9 @@ width: 101vw;
     background: url('assets/wave.svg');
     
     transform: translateY(100%); rotate: (180deg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 
 .highlight__wrapper {
@@ -306,9 +310,9 @@ width: 101vw;
 }
 /*FEATURES*/
 
-#features {
+#featured {
     padding-top:8vw ;
-    background-color:rgba(115, 66, 214, 0.1) ;
+     background-color: rgba(115, 66, 214, 0.1);
 }
 
 .books {
